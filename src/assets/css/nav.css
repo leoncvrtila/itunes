@@ -1,0 +1,65 @@
+/*-----------------RESPONSIVE*/
+/*-----------------NAV*/
+nav {
+  width: 12%;
+  padding: 1%;
+  position: fixed;
+  z-index: 99999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #121212;
+  height: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  nav {
+    width: 45%;
+    padding: 7%;
+    text-align: center;
+  }
+}
+
+.NavBtn {
+  background: black;
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  z-index: 9999999;
+  border-radius: 100%;
+  padding: 5px;
+  margin: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .NavBtn {
+    margin: 4%;
+    margin-left: 80%;
+  }
+}
+
+.NavBtn img {
+  width: 50%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #bbbbbb;
+  margin: 2% 0%;
+}
+
+nav a:hover {
+  color: #ececec;
+}
+/*# sourceMappingURL=nav.css.map */
